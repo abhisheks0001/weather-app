@@ -1,0 +1,11 @@
+.InfoBox { 
+    text-align: center;
+}
+.InfoBox {
+  display: flex;
+  justify-content: center; /* Horizontally center */
+  align-items: center;     /* Vertically center (optional) */
+  min-height: 50vh;       /* Full screen height for perfect vertical centering */
+  flex-direction: column;  /* Keep heading above card */
+  gap: 20px;               /* Space between heading and card */
+}
